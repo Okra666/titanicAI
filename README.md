@@ -13,5 +13,11 @@ library version
 
 1.Copy the repository
 ```
-git clone https://github.com/shibuiwilliam/mlweb.git
+git clone https://github.com/Okra666/titanicAI.git
 ```
+2.Run website by flask
+```
+python web.py
+```
+3.You can access the website on port 5000. ie: http:/<server adress>/:5000/
+4.To retrain the model, edit "train_titanic.ipynb" and save the model as "model_titanic.pickle".
