@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+   <head>
+      <title>TitanicAIテスト</title>
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <script src="/static/js/app.js"></script>
+      <link rel="stylesheet" href="/static/css/app.css">
+    </head>
+   <body>
+
+      <h2>Enter Titanic Params</h2>
+
+      <table>
+         <tr><th>チケットクラス</th><td><input type="radio" name="ticket" value="1">1st&nbsp;<input type="radio" name="ticket" value="2">2nd&nbsp;<input type="radio" name="ticket" value="3">3rd</td></tr>
+         <tr><th>性別</th><td><input type="radio" name="gender" value="0">男性&nbsp;<input type="radio" name="gender" value="1">女性</td></tr>
+         <tr><th>年齢</th><td><input type="text" name="age">歳</td></tr>
+         <tr><th>敬称</th><td><input type="radio" name="title" value="1">Mr&nbsp;<input type="radio" name="title" value="2">Miss&nbsp;<input type="radio" name="title" value="3">Mrs
+            &nbsp;<input type="radio" name="title" value="4">Master&nbsp;<input type="radio" name="title" value="5">Rare
+         </td></tr>
+         <tr><th>一緒に乗船した兄弟、配偶者の数</th><td><input type="text" name="sibsp"></td></tr>
+         <tr><th>一緒に乗船した親子の数</th><td><input type="text" name="parch"></td></tr>
+         <tr><th>乗船料</th><td><input type="text" name="fare"></td></tr>
+         <tr><th>港</th><td><input type="radio" name="embarked" value="1">C&nbsp;<input type="radio" name="embarked" value="2">Q&nbsp;<input type="radio" name="embarked" value="0">S</td></tr>
+         <tr><td><button onClick="sendData();" >予測</button></td></tr>
+      </table>
+
+      <div id="answer"></div>
+   </body>
+</html>
+
