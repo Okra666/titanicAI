@@ -8,6 +8,7 @@ This website is developed and tested on Windows10 with Python 3.7.8 You need Pyt
 library version
 - Flask              1.1.2
 - Flask-Cors         3.0.8
+- scikit-learn       0.23.2
 - numpy              1.19.1
 - pandas             1.1.0
 
@@ -20,4 +21,5 @@ git clone https://github.com/Okra666/titanicAI.git
 python web.py
 ```
 3.You can access the website on port 5000. ie: http:/<server adress>/:5000/
+  
 4.To retrain the model, edit "train_titanic.ipynb" and save the model as "model_titanic.pickle".
